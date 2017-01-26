@@ -17,5 +17,5 @@ function wordykg2stlb( kg ) {
     }
 
     var stlb = kg2stlb( kg );
-    return stlb.st + " st " + stlb.lb.toFixed( 2 ) + " lb";
+    return stlb.st + " st " + stlb.lb.toFixed( 1 ) + " lb";
 }
