@@ -1,0 +1,16 @@
+body {
+    background: black;
+    color: white;
+    font-size: 500%;
+}
+
+input {
+    background: #222222;
+    color: white;
+    font-size: 100%;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
