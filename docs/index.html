@@ -7,13 +7,11 @@
   </head>
 
   <body>
-    <p>
-      Kilograms: <input id="kg" />
+    <form oninput="result.value = wordykg2stlb( parseInt( kg.value ) )">
+      Kilograms: <input name="kg" />
       <br />
       <br />
-      <button onclick="convert( document );">Convert</button>
-    </p>
-    <p id="result">
+      <output name="result">
     </p>
   </body>
 
