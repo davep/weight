@@ -14,7 +14,8 @@ the WW site wants stones and decimal pounds, not decimal stones, etc.
 
 Finally, a short while ago, I cracked and knocked together a very quick and
 dirty conversion tool. Designed for me to easily find on my phone, and 100%
-hosted on GitHub (because... reasons).
+hosted on GitHub (because... reasons -- this also explains why the source is
+in the docs directory).
 
 http://blog.davep.org/weight/ is now a thing. Likely a thing I'll use lots
 and never tweak again. But at least the itch has been scratched and I don't
