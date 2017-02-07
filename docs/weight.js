@@ -1,3 +1,16 @@
+function urlParams() {
+    return window.location.search
+        .substring( 1 )
+        .split( "&" )
+        .reduce( function ( params, param ) {
+            if ( param ) {
+                var pair = param.split( "=" );
+                params[ pair[ 0 ] ] = pair[ 1 ];
+            }
+            return params;
+        }, {} );
+}
+
 function kg2st( kg ) {
     return kg / 6.3503;
 }
