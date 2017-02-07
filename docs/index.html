@@ -11,13 +11,13 @@
     <link rel="author" href="https://plus.google.com/+DavePearson/posts" />
   </head>
 
-  <body>
+  <body onload="kg.value = defaultKg(); result.value = wordykg2stlb( parseFloat( kg.value ) )">
     <form oninput="result.value = wordykg2stlb( parseFloat( kg.value ) )">
       <p>
         <label for="kg">Kilograms</label><br /><input id="kg" type="number" min="0" name="kg" autofocus autocomplete="off"/>
       </p>
       <p>
-        <output name="result"></output>
+        <output id="result" name="result"></output>
       </p>
     </form>
   </body>

@@ -11,6 +11,16 @@ function urlParams() {
         }, {} );
 }
 
+function defaultKg() {
+    var kg = urlParams().kg;
+
+    if ( isNaN( kg ) ) {
+        return "";
+    }
+
+    return kg;
+}
+
 function kg2st( kg ) {
     return kg / 6.3503;
 }
